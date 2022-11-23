@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Outer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Card{
+  flex: 1;
+  margin: 5px;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+}
+.Snacks{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
